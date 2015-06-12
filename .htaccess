@@ -7,8 +7,6 @@ DirectoryIndex index.php index.html
 
 AddHandler fcgid-script .html .htm
 
-
-
 # Browser Caching
 FileETag MTime Size
 
