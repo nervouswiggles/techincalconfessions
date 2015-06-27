@@ -1,0 +1,12 @@
+Caused By: oracle.iam.platform.utils.NoSuchServiceException: javax.naming.NameNotFoundException: While trying to lookup 'ejb.stateless.ClientLoginSessionService#oracle.iam.platformservice.api.ClientLoginSessionServiceRemote' didn't find subcontext 'stateless'. Resolved 'ejb'; remaining name 'stateless/ClientLoginSessionService#oracle/iam/platformservice/api/ClientLoginSessionServiceRemote'
+	at oracle.iam.platformservice.api.ClientLoginSessionServiceDelegate.(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at oracle.iam.platform.OIMClient.getServiceDelegate(OIMClient.java:274)
+	at oracle.iam.platform.OIMClient.getService(OIMClient.java:255)
+	at oracle.iam.platform.OIMClient.loginSessionCreated(OIMClient.java:290)
+	at oracle.iam.platform.OIMClient.login(OIMClient.java:214)
+	at oracle.iam.platform.OIMClient.login(OIMClient.java:196)
+	at oim.client.Client.(Client.java:33)
