@@ -10,3 +10,4 @@ Caused By: oracle.iam.platform.utils.NoSuchServiceException: javax.naming.NameNo
 	at oracle.iam.platform.OIMClient.login(OIMClient.java:214)
 	at oracle.iam.platform.OIMClient.login(OIMClient.java:196)
 	at oim.client.Client.(Client.java:33)
+New file?
